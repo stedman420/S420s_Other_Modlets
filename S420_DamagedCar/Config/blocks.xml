@@ -1,0 +1,33 @@
+<configs>
+	<append xpath="/blocks">
+		<block name="S420_damagedCarD0">
+			<!--Free Unity store asset by VIS Games-->
+			<property name="Extends" value="cntCar03SedanDamage0" />
+			<property name="CustomIcon" value="cntCar03SedanDamage0" />
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/S420_damagedCar.unity3d?damagedCarD0" />
+			<property name="DowngradeBlock" value="S420_damagedCarD1" />
+			<property name="MultiBlockDim" value="3,2,6" />
+			<property name="BigDecorationRadius" value="6" />
+		</block>
+		<block name="S420_damagedCarD1">
+			<!--Free Unity store asset by VIS Games-->
+			<property name="Extends" value="cntCar03SedanDamage1" />
+			<property name="CustomIcon" value="cntCar03SedanDamage1" />
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/S420_damagedCar.unity3d?damagedCarD1" />
+			<property name="DowngradeBlock" value="S420_damagedCarD2" />
+			<property name="MultiBlockDim" value="3,2,6" />
+			<property name="BigDecorationRadius" value="6" />
+		</block>
+		<block name="S420_damagedCarD2">
+			<!--Free Unity store asset by VIS Games-->
+			<property name="Extends" value="cntCar03SedanDamage2" />
+			<property name="CustomIcon" value="cntCar03SedanDamage2" />
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/S420_damagedCar.unity3d?damagedCarD2" />
+			<property name="MultiBlockDim" value="3,2,6" />
+			<property name="BigDecorationRadius" value="6" />
+		</block>
+	</append>
+</configs>

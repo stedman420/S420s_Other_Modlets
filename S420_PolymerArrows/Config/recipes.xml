@@ -1,0 +1,47 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="ammoArrowIron" count="1">
+			<ingredient name="resourceArrowHeadIron" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="1"/>
+		</recipe>
+
+		<recipe name="ammoArrowSteelAP" count="1">
+			<ingredient name="resourceArrowHeadSteelAP" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="1"/>
+		</recipe>
+
+		<recipe name="ammoArrowStone" count="1">
+			<ingredient name="resourceRockSmall" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="1"/>
+		</recipe>
+
+		<recipe name="ammoCrossbowBoltExploding" count="1" craft_area="workbench" tags="learnable">
+			<ingredient name="resourceArrowHeadSteelAP" count="1"/>
+			<ingredient name="resourceGunPowder" count="8"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="1"/>
+		</recipe>
+
+		<recipe name="ammoCrossbowBoltIron" count="1">
+			<ingredient name="resourceArrowHeadIron" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="1"/>
+		</recipe>
+
+		<recipe name="ammoCrossbowBoltSteelAP" count="1">
+			<ingredient name="resourceArrowHeadSteelAP" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="1"/>
+		</recipe>
+
+		<recipe name="ammoCrossbowBoltStone" count="1">
+			<ingredient name="resourceRockSmall" count="1"/>
+			<ingredient name="resourceWood" count="1"/>
+			<ingredient name="resourceScrapPolymers" count="1"/>
+		</recipe>
+	</append>
+</configs>

@@ -1,0 +1,30 @@
+<configs>
+	<append xpath="/blocks">
+		<block name="S420_FireTruck">
+			<!--Free Unity store asset by Yoon's 3D GameART-->
+			<property name="Extends" value="cntBusSchool" />
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity" />
+			<property name="Model" value="#@modfolder:Resources/S420_FireTruck.unity3d?FireTruckPrefab" />
+			<property name="MultiBlockDim" value="3,3,9" />
+			<property name="BigDecorationRadius" value="9" />
+			<property name="ActivationDistance" value="10"/>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="smallEngine" count="1" prob="0.25" tag="salvageHarvest"/>
+			<drop event="Harvest" name="carBattery" count="1" prob="0.2" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceRadiator" count="1" prob="0.5" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceOil" count="1,3" prob="0.5" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceCloth" count="3,7" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceSpring" count="2,4" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceScrapIron" count="10,35" tag="salvageHarvest"/>
+			<drop event="Harvest" name="ammoGasCan" count="20,120" tag="allHarvest"/>
+			<drop event="Harvest" name="ammoGasCan" count="20,130" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceScrapIron" count="12" tag="allHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Harvest" name="resourceMechanicalParts" count="2,4" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceElectricParts" count="0,2" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceElectricParts" count="0,2" prob="0.1" tag="salvageHarvest"/>
+			<property name="LootList" value="51"/>
+		</block>
+	</append>
+</configs>

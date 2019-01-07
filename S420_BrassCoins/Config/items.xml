@@ -1,0 +1,8 @@
+<configs>
+	<!-- Change coins material to brass -->
+	<set xpath="/items/item[@name='casinoCoin']/property[@name='Material']/@value">Mbrass</set>
+	<!-- Give coins a weight to determine how much scrap brass you get from them -->
+	<append xpath="/items/item[@name='casinoCoin']">
+		<property name="Weight" value="1" />
+	</append>
+</configs>

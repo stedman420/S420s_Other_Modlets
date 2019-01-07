@@ -1,0 +1,7 @@
+<configs>
+	<append xpath="/blockplaceholders/placeholder[@name='carsRandomHelper']">
+		<block name="S420_TransportTruckD0" prob="0.008"/>
+		<block name="S420_TransportTruckD1" prob="0.01"/>
+		<block name="S420_TransportTruckD2" prob="0.02"/>
+	</append>
+</configs>

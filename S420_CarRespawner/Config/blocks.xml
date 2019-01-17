@@ -1,0 +1,29 @@
+<configs>
+	<insertBefore xpath="/blocks/block[@name='cntCar03SedanDamage2']">
+		<block name="S420_CarRespawner">
+			<property name="CustomIcon" value="cntCar03SedanDamage0" />
+			<property name="CustomIconTint" value="ffa0a0"/>		
+			<property name="IsDeveloper" value="true" />
+			<property name="Class" value="PlantGrowing" />	
+			<property name="Material" value="Mtallgrass"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="Shape" value="Grass"/>
+			<property name="Mesh" value="grass"/>
+			<property name="Texture" value="350,368,369,370,350,368"/>		
+			<property name="Collide" value="melee"/>
+			<property name="CanMobsSpawnOn" value="false" />
+			<drop event="Destroy" count="0" />	
+			<property name="IsTerrainDecoration" value="true" />
+			<property name="PlantGrowing.Next" value="carsRandomHelper" />
+			<property name="PlantGrowing.GrowthRate" value="900" /><!-- This is respawn time in real time minutes. By Default 60 minutes is 1 day -->
+			<property name="PlantGrowing.FertileLevel" value="0" />
+			<property name="PlantGrowing.IsRandom" value="false" />
+			<drop event="Destroy" name="resourceYuccaFibers" count="2"/>
+		</block>
+	</insertBefore>
+
+	<append xpath="/blocks/block[@name='cntCar03SedanDamage2']"><property name="DowngradeBlock" value="S420_CarRespawner"/></append>
+
+	<append xpath="/blocks/block[@name='cntBusSchool']"><property name="DowngradeBlock" value="S420_CarRespawner"/></append>
+
+</configs>

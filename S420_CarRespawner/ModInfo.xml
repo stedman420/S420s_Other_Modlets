@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xml>
+	<ModInfo>
+		<Name value="S420_CarRespawner" />
+		<Description value="Makes it so cars and buses respawn. Also adds buses to the random cars helper" />
+		<Author value="stedman420" />
+		<Version value="1.0" />
+		<Website value="" />
+	</ModInfo>
+</xml>
